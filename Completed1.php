@@ -9,10 +9,10 @@ if ($method === 'OPTIONS') {
     exit();
 }
 class Database {
-    private $host = 'sql203.infinityfree.com';
-    private $db_name = 'if0_36204677_quotedb';
-    private $username = 'if0_36204677';
-    private $password = 'hUQT6F9xGJdqA';
+    private $host = 'dpg-cntldkol5elc73ci4kq0-a';
+    private $db_name = 'quotedb_d6ze';
+    private $username = 'quotedb_d6ze_user';
+    private $password = 'ZN8tJrbYMjBmksF0rrkhnpldJAIYPDDs';
     private $conn;
 
     public function connect() {
